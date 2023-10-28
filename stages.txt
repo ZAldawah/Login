@@ -1,0 +1,19 @@
+I am trying to make a real-world application of a very simple Login UI in C++ that is text based. Here's how it will go:
+Stage 1:
+1) Let user sign up in which credentials get saved locally. 
+(First name, Last name, DOB, Email, Password)
+2) Let user sign in using saved credentials.
+(Email, Password) *Must match saved credentials*
+
+Stage 2:
+1) Implement password strength detection.
+(Password must meet some criteria)
+
+Stage 3:
+1) Email address verification.
+(Figure out a way to send an email to the user's email to acquire some type of confirmation)
+2) Phone number verification.
+(Figure out a way to send a text message to the user's phone to acquire some type of confirmation)
+3) Random *strong* password generator when sign up.
+(Instead of making the user create their own password, generate a random password by default for which the user can change it later and send to email.)
+*Stage 3 might not be possible on the short-term*
